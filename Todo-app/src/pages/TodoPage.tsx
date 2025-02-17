@@ -39,6 +39,7 @@ const TodoPage = () => {
   };
 
   return (
+    <div className='main-todo'>
     <div className="todo-container">
       <h1>Task List</h1>
 
@@ -81,6 +82,7 @@ const TodoPage = () => {
           ))
         )}
       </div>
+    </div>
     </div>
   );
 };

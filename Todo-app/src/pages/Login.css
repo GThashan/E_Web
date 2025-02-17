@@ -4,11 +4,11 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f7f7f7;
+    background-color: #2C2638;
   }
   
   .login-form {
-    background-color: #fff;
+    background-color: #3C364C;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@
     text-align: center;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
-    color: #333;
+    color: white;
   }
   
   .login-form input {
@@ -43,7 +43,7 @@
   .login-form button {
     width: 110%;
     padding: 0.75rem;
-    background-color: #007bff;
+    background-color: #6D54B5;
     color: white;
     border: none;
     border-radius: 4px;
@@ -53,5 +53,9 @@
   
   .login-form button:hover {
     background-color: #0056b3;
+  }
+  span{
+    color:white;
+    margin-top: 10px;
   }
   

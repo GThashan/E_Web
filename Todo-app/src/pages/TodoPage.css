@@ -1,15 +1,22 @@
+.main-todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2C2638;
+}
 .todo-container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #3C364C;
     border-radius: 8px;
   }
   
   h1 {
     font-size: 2rem;
-    color: #333;
+    color: #fff;
   }
   
   .new-task {
@@ -50,6 +57,9 @@
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
+  }
+  .task-item span{
+    color: black;
   }
   
   .task-item button {
